@@ -33,7 +33,6 @@ export function MovieCard({ posterPath, title, releaseDate, rating, overview }) 
         <Box p="0.5rem">
           <Flex justifyContent="space-between" alignItems="start">
             <Link
-              href="#"
               _hover={{ color: "blue.500", textDecoration: "none" }}
               onClick={onOpen}
             >
