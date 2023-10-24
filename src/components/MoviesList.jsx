@@ -50,6 +50,7 @@ export function MoviesList() {
                 title={movie.title}
                 releaseDate={movie.release_date}
                 rating={movie.vote_average}
+                overview={movie.overview}
               />
             )
           }

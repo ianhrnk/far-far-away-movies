@@ -14,9 +14,8 @@ export function Navbar() {
     >
       <Flex gap="2.5rem" alignItems="center">
         <Text color="white" fontSize="xl" fontFamily={'heading'} fontWeight="bold">FFAM</Text>
-        <NavLink href="#" text="Movies" />
-        <NavLink href="#" text="TV Shows" />
-        <NavLink href="#" text="People" />
+        <NavLink href="#" text="Filmes" />
+        <NavLink href="#" text="Séries" />
       </Flex>
     </Box>
   );
